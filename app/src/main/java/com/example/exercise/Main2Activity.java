@@ -10,9 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
-public class Man2Activity extends AppCompatActivity implements View.OnClickListener {
+public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
 
-    private Spinner sipinner;
+    private Spinner spinner;
     private Student student;
     private StudentDaoImpl studentDaoImpl;
     private EditText edName,edAge;
@@ -43,7 +43,6 @@ public class Man2Activity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_exit:
                 finish();
                 break;
-
         }
     }
 
