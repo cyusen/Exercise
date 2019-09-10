@@ -9,6 +9,8 @@ public class Student implements Serializable {
             "student_classmate varchar(100)," +
             "student_age integer)";
 
+    
+
 
     private int id;
     private String name;
